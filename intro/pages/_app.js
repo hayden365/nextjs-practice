@@ -1,6 +1,6 @@
 import NavBar from "@/Components/NavBar";
 
-export default function A00({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
 	return (
 		<>
 			<NavBar>

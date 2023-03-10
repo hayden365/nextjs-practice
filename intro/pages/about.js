@@ -1,5 +1,3 @@
-import NavBar from "@/Components/Navbar";
-
 export default function Potato() {
 	return (
 		<div>
