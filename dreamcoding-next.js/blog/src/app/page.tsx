@@ -1,3 +1,4 @@
+import CarouselPosts from "@/components/CarouselPosts";
 import FeaturedPosts from "@/components/FeaturedPosts";
 import Hero from "@/components/Hero";
 
@@ -10,6 +11,8 @@ export default function HomePage() {
   경우에는 에러가 발생한다. */}
 			{/*@ts-expect-error Server Component*/}
 			<FeaturedPosts />
+			{/*@ts-expect-error Server Component*/}
+			<CarouselPosts />
 		</section>
 	);
 }
