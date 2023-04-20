@@ -13,5 +13,5 @@ module.exports = {
 			backgroundImage: {},
 		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/typography")],
 };

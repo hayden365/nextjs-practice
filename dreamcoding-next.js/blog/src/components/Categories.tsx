@@ -15,7 +15,9 @@ export default function Categories({ categories, selected, onClick }: Props) {
 			<ul>
 				{categories?.map(category => (
 					<li
-						className={`cursor-pointer hover:text-sky-500 `}
+						className={`cursor-pointer hover:text-sky-500 ${
+							category === selected && "text-sky-600"
+						} `}
 						key={category}
 						onClick={() => onClick(category)}
 					>
