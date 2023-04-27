@@ -20,6 +20,7 @@ module.exports = {
 				instargram: "#EF00A1",
 				uYellow: "#FAC469",
 				uSkyBlue: "#65EBE7",
+				rss: "#f26522",
 			},
 		},
 	},
