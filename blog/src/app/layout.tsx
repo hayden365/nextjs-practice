@@ -2,7 +2,7 @@ import "./globals.css";
 import { Josefin_Sans, Source_Serif_Pro } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer";
 config.autoAddCss = false;
 

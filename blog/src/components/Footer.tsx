@@ -10,7 +10,7 @@ type Props = {};
 const Footer = (props: Props) => {
 	return (
 		<footer className="max-w-screen-2xl mx-auto">
-			<section className="grid xl:grid-cols-4 lg:grid-cols-2 sm:grid-cols-1">
+			<section className="grid grid-cols-1  lg:grid-cols-4 sm:grid-cols-2 gap-12 mx-9">
 				<LatestArticles />
 				<TagCloud />
 				<FollowMe />

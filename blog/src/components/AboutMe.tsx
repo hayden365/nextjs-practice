@@ -23,7 +23,7 @@ export default function AboutMe() {
 						<div className="flex gap-2 pt-2">
 							<TwitterIcon style="text-twitter" />
 							<FacebookIcon style="text-facebook" />
-							<InstagramIcon style="text-instargram" />
+							<InstagramIcon style="text-instagram" />
 						</div>
 					</div>
 				</div>
