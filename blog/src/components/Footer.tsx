@@ -8,8 +8,8 @@ type Props = {};
 
 const Footer = (props: Props) => {
 	return (
-		<footer className="max-w-5xl mx-auto">
-			<section className="grid xl:grid-cols-4 lg:grid-cols-2 sm:grid-cols-1 gap-4">
+		<footer className="max-w-screen-2xl mx-auto">
+			<section className="grid xl:grid-cols-4 lg:grid-cols-2 sm:grid-cols-1">
 				<LatestArticles />
 				<TagCloud />
 				<FollowMe />
