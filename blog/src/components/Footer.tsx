@@ -3,6 +3,7 @@ import LatestArticles from "./LatestArticles";
 import TagCloud from "./TagCloud";
 import FollowMe from "./FollowMe";
 import AboutMe from "./AboutMe";
+import FootLogo from "./FootLogo";
 
 type Props = {};
 
@@ -15,6 +16,7 @@ const Footer = (props: Props) => {
 				<FollowMe />
 				<AboutMe />
 			</section>
+			<FootLogo />
 		</footer>
 	);
 };

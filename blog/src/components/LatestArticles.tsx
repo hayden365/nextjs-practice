@@ -19,7 +19,9 @@ export default function LatestArticles() {
 						<h6 className="font-bold text-primary tracking-tight">
 							{article.title}
 						</h6>
-						<span className="text-xs text-uGray">{article.date}</span>
+						<span className="text-xs text-fontGray font-normal">
+							{article.date}
+						</span>
 					</div>
 				</article>
 			))}
